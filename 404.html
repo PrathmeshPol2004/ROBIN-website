@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found — ROBIN Community</title>
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <style>
+    .notfound-wrapper {
+      min-height: 80vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: var(--space-8);
+    }
+    .notfound-code {
+      font-size: clamp(5rem, 15vw, 9rem);
+      font-weight: var(--fw-bold);
+      color: var(--color-clay-brown);
+      line-height: 1;
+      margin-bottom: var(--space-2);
+    }
+    .notfound-title {
+      font-size: var(--text-2xl);
+      margin-bottom: var(--space-4);
+    }
+    .notfound-copy {
+      max-width: 440px;
+      margin-bottom: var(--space-6);
+    }
+  </style>
+</head>
+<body class="bg-dot-pattern">
+
+  <header class="site-header">
+    <div class="container" style="justify-content: center;">
+      <a href="index.html" class="header-brand">
+        <img src="assets/images/robin-horizontal.svg" alt="ROBIN" class="header-logo-img">
+      </a>
+    </div>
+  </header>
+
+  <main class="notfound-wrapper">
+    <div class="notfound-code">404</div>
+    <h1 class="notfound-title">Page not found</h1>
+    <p class="notfound-copy">
+      The project route or document you are looking for has either moved or hasn't been built yet.
+    </p>
+    <a href="index.html" class="btn btn-primary">Return to ROBIN Home</a>
+  </main>
+
+</body>
+</html>
